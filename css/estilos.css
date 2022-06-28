@@ -1,0 +1,335 @@
+
+@font-face {
+    font-family: Sanchez;
+    src: url(Sanchezregular.otf);
+}
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+font-family: Sanchez;
+
+}
+.secpreg{
+    text-align: center;
+    align-items: center;
+}
+.h1111{
+    text-align: center;
+padding: 200px 100px 50px 100px;
+color: white;
+}
+.h11111{
+    text-align: center;
+color: white;
+padding: 0px 100px 50px 100px;
+}
+body{
+    background: white;
+    font-family: Sanchez;
+}
+header{
+    background-color: #2F8F9D;
+    display: flex;
+    min-height: 70px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 80px;
+    color: white;
+}
+nav a button{
+    border-radius: 6px;
+    height: 30px;
+    width: 120px;
+    border: none;
+}
+nav a input{
+    border-radius: 6px;
+    height: 30px;
+    width: 120px;
+    border: none;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+}
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+.logo{
+    display: flex;
+align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+header a{
+   text-decoration: none;
+
+}
+.menu{
+    width: 900px;
+    margin: auto;
+}
+
+.log{
+    height: 50px;
+    float: left;
+    padding: 0px;
+    
+}
+.bck1{
+    height: 1500px;
+}
+nav{
+    float: right;
+}
+nav img{
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+nav ul li a:hover{
+    transition: 0.5s;
+    background-color: #237582;
+}
+.inic{
+    color:rgb(0, 0, 0);
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    font-family: Sanchez;
+    margin-left: 75px;
+    padding: 25px 0;
+    text-align: center;
+    float: none;
+}
+.nosotros{
+    background-color: white;
+    padding:20px;
+    margin:auto;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.nosotros h1{
+    text-align: center;
+    
+    color:#237582;    
+}
+.nosotros img{
+   
+    margin:40px;
+    height: 300px;   
+}
+.nosotros p{
+    text-align: center;
+   padding: 20px;
+   font-size:18px;
+    color:dimgray;
+    
+}
+.letras button{
+text-align: center;
+
+}
+.more{
+    background-color: #237582;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    font-family: Sanchez;
+}
+.more:hover{
+    cursor: default;
+
+}
+.containercards{
+   text-align: center;
+    display: flex;
+    max-width:100%;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bck2.jpg);
+}
+.secpreg{
+    max-width:100%;
+    width: 100%;
+    height: 600px;
+    background-image: url(img/bck1.jpg);
+}
+.card img{
+    width: 20%;
+
+}
+.card{
+    width: 250px;
+    height: 300px;
+
+    margin:20px;
+    border-radius: 6px;
+   background-color: white;
+    color: black;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    align-items: center;
+    text-align: center;
+
+}
+.card:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card h2{
+padding: 20px;
+text-align: center;
+}
+.formaparte h1{
+    text-align: center;
+    color: #237582;
+    padding: 50px;
+}
+
+.containercardparte{
+    text-align: center;
+     display: flex;
+     max-width:100%;
+     width: 100%;
+     height: 500px;
+     align-items: center;
+     justify-content: center;
+ background: white;
+ }
+ .containercontacto{
+    text-align: center;
+     display: flex;
+     max-width:100%;
+     width: 100%;
+     height: 600px;
+     align-items: center;
+     justify-content: center;
+     background-color: #E0DFDF;
+     
+ }.cardcontact{
+    width: 500px;
+    height: 200px;
+
+    margin:20px;
+    border-radius: 6px;
+   background-color: #E0DFDF;
+    color: black;
+    cursor: default;
+    align-items: center;
+    text-align: right;
+
+}
+.cardcontact h2{
+    color:#237582;
+
+}
+.cardcontact img{
+    height: 200px;
+}
+.cardcontact2{
+    width: 500px;
+    height: 200px;
+
+    margin:20px;
+    border-radius: 6px;
+   background-color: #E0DFDF;
+    color: black;
+    cursor: default;
+    align-items: center;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.cardcontact2 input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+
+}
+.download{
+    text-align: center;
+    display: center;
+    align-items: center;
+}
+.download h1{
+    padding: 20px;
+}
+.log1{
+    padding: 15px;
+    height: 200px;
+    text-align: center;
+}
+.descarga{
+text-align: center;
+}
+.app{
+  
+   height: 80px;
+}
+.icons{
+    width: 300px;
+}
+.creditos{
+    background-color: #E0DFDF;
+    text-align: center;
+    align-items: center;
+}
+.creditos ul{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+.creditos ul li{
+    padding: 20px;
+    text-align: center;
+}
+.creditos ul li a{
+   text-decoration: none;
+   
+   text-align: center;
+}
+.creditos h1{
+    padding: 30px;
+}
+.creditos img{
+    padding: 20px;
+}
