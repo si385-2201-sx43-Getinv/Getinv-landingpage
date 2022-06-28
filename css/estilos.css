@@ -155,6 +155,11 @@ nav ul li a:hover{
 text-align: center;
 
 }
+.precios h1
+{
+
+    text-align: center;
+}
 .more{
     background-color: #237582;
     color: white;
@@ -185,7 +190,7 @@ text-align: center;
     background-image: url(../img/bck1.jpg);
 }
 .card img{
-    width: 20%;
+    width: 50%;
 
 }
 .card{
